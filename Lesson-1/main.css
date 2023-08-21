@@ -1,0 +1,78 @@
+html{
+
+
+}
+
+body{
+
+    background-color: white;
+
+}
+
+.youtube{
+    background-color: #cc0000;
+    color: white;
+    border: none;
+    height: 36.8px;
+    width: 112.91px;
+    padding: 10px 16px;
+    transition: opacity 015s;
+    font-size: 14px;
+    border-radius: 2px;
+    cursor: pointer;    
+}
+
+.Join{
+    background-color: white;
+    color: #065fd4;
+    border: 1px solid #065fd4; /*burası ile borderın kalınlığını veya olup olmayacağını ayarlarız solid ile de borderimıza bir renk 
+                                            atayabiliriz*/
+    height: 36.4px;                                                     
+    width: 63.5px;                         
+    border-radius: 2px;
+    cursor: pointer;
+    padding: 9px 15px;
+}
+
+.twitter {
+
+    font-size: 15px;
+    background-color: #1d9bf0;
+    color: white;
+    width: 74.08px;
+    height: 36.5px;
+    border: none;
+    padding: 7px 16px;
+    font-weight: bold;
+    border-radius: 50px;
+    transition: box-shadow 0.15s;
+    cursor: pointer;
+}
+
+
+/*
+  CSS'in açılımı Cascading Style Sheets tir. Adındanda anlaşılacağı üzere HTML ile yazdığımız web sayfalarındaki elementlerin görüntüsünü değiştirir.  
+
+
+**hadi bi örnek üzerinden syntaxına bi bakış atalım.
+        
+    body{
+
+        background-color: #333;
+
+        }
+
+     
+      *html dosyasında görüntüsünü değiştirmek istediğimiz elementin adını yazarız sonra açık-kapalı süslü parantezlerin arasında o elementin nasıl görüneceği ile ilgili komutları gireriz. 
+
+        *Seçtiğimiz elementin hangi bölümünün görüntüsünün değişeceğini ise süslü parantezler arasına yazdığımız komutlarla belirleriz.
+
+            background-color: #333;
+
+                yukarıda görüldüğü gibi. background-color diyerek arka planın rengini değiştireceğimi belirtim daha sonra iki noktadan sonra bir value atadım en sonda tırnak işareti ile komutu bitirdik. CSS arkaplanımı atadığım değere karşılık gelen renk ile değiştirecektir.
+
+
+
+**Yukarıda yaptığımız olay html dökümanımızdaki bütün butonların görüntüsünü aynı şekilde değiştirecektir. Fakat bu yazdıklarımızın yalnızca bir buton için geçerli olmasını istersek peki ? o zaman <button class="name"> şeklinde class ile butonlara isim atarız daha sonra CSS sayfasında .name yapıp butona atadığımız ismi kullanırarak bütün bu özellikleri sadece bir butona atarız.
+
+*/
