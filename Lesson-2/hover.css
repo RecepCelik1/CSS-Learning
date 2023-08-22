@@ -16,14 +16,13 @@ body{
     height: 36.8px;
     width: 112.91px;
     padding: 10px 16px;   
-    transition: opacity 015s; 
     font-size: 14px;
     border-radius: 2px;
     cursor: pointer;    
 }
-
 .youtube:hover{
-    
+    opacity: 0.6;   /*stilini etkilediği öğenin renginin beyaza doğru solmasını sağlar */
+    transition: opacity 0.15s; /* animasyonların delaylı veya zamana yayılacak şekilde olmasını sağlar kullanımının örneği yanda.*/
 }
 
 .Join{
@@ -35,6 +34,12 @@ body{
     border-radius: 2px;
     cursor: pointer;
     padding: 9px 15px;
+}
+
+.Join:hover{
+    background-color: #065fd4;
+    color: white;
+    border: none;
 }
 
 .twitter {
@@ -55,8 +60,22 @@ body{
 
 /*
     **Bu derste hovers öğreneceğiz. İnternet sitelerinde gezerekn butonların üzerine geldiğimizde bazılarının animasyonla renk değiş-
-    tirdiği veya imleci üzerine getirdiğimiz resimlerin büyüdüğünü görürüz. 
+    tirdiği veya imleci üzerine getirdiğimiz resimlerin büyüdüğünü görürüz. Bunların hepsi hover özelliği ile olur.
+    
+    **hover**
+        
+        *ilk özelliğimiz şu şekilde kullanılıyor ;
 
+            .Join{} kısmı ile Join adını verdiğimiz butonun stilini düzenlemiştik zaten.
 
+            .Join:hover{} dediğimizde artık olay şuna döner. Kullanıcı imleci butonun üzerine getirdiği zaman artık buranın içine 
+             yazılmış olan stil özellikleri aktif olacaktır.
+
+        
+        *:active ;
+
+            kullanılan bir diğer pseudo-class ise active, pseudo-classıdır. Bunun özelliği şudur ;
+
+                kullanıcı butonumuza tıkladığı zaman gerçekleşicek olan stil değişikliğini belirtir.
 */
 
