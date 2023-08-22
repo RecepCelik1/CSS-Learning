@@ -1,0 +1,62 @@
+html{
+
+
+}
+
+body{
+
+    background-color: white;
+
+}
+
+.youtube{
+    background-color: #cc0000;
+    color: white;
+    border: none;
+    height: 36.8px;
+    width: 112.91px;
+    padding: 10px 16px;   
+    transition: opacity 015s; 
+    font-size: 14px;
+    border-radius: 2px;
+    cursor: pointer;    
+}
+
+.youtube:hover{
+    
+}
+
+.Join{
+    background-color: white;
+    color: #065fd4;
+    border: 1px solid #065fd4; 
+    height: 36.4px;                                                     
+    width: 63.5px;                         
+    border-radius: 2px;
+    cursor: pointer;
+    padding: 9px 15px;
+}
+
+.twitter {
+
+    font-size: 15px;
+    background-color: #1d9bf0;
+    color: white;
+    width: 74.08px;
+    height: 36.5px;
+    border: none;
+    padding: 7px 16px;
+    font-weight: bold;
+    border-radius: 50px;
+    transition: box-shadow 0.15s;
+    cursor: pointer;
+}
+
+
+/*
+    **Bu derste hovers öğreneceğiz. İnternet sitelerinde gezerekn butonların üzerine geldiğimizde bazılarının animasyonla renk değiş-
+    tirdiği veya imleci üzerine getirdiğimiz resimlerin büyüdüğünü görürüz. 
+
+
+*/
+
