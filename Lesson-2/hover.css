@@ -20,10 +20,18 @@ body{
     border-radius: 2px;
     cursor: pointer;    
 }
+
 .youtube:hover{
-    opacity: 0.6;   /*stilini etkilediği öğenin renginin beyaza doğru solmasını sağlar */
+    opacity: 0.6;   /*stilini etkilediği öğenin renginin beyaza doğru solmasını sağlar sadece 0 ve 1 aralığında değer alabilir. */
+                    /*1 --> hiç solma yok,  0--> tamamen beyaz */
     transition: opacity 0.15s; /* animasyonların delaylı veya zamana yayılacak şekilde olmasını sağlar kullanımının örneği yanda.*/
+
 }
+.youtube:active{
+    opacity: 0.4;
+    transition: opacity 0.15s;
+}
+
 
 .Join{
     background-color: white;
@@ -34,12 +42,16 @@ body{
     border-radius: 2px;
     cursor: pointer;
     padding: 9px 15px;
+    transition: all 0.15s;
 }
 
 .Join:hover{
+    
     background-color: #065fd4;
     color: white;
-    border: none;
+}
+.Join:active{
+    opacity: 0.7;
 }
 
 .twitter {
@@ -53,8 +65,12 @@ body{
     padding: 7px 16px;
     font-weight: bold;
     border-radius: 50px;
-    transition: box-shadow 0.15s;
     cursor: pointer;
+    transition: all 0.15s ;
+}
+.twitter:hover{
+    box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.15);
+    
 }
 
 
@@ -77,5 +93,42 @@ body{
             kullanılan bir diğer pseudo-class ise active, pseudo-classıdır. Bunun özelliği şudur ;
 
                 kullanıcı butonumuza tıkladığı zaman gerçekleşicek olan stil değişikliğini belirtir.
+
+
+
+
+        *transition kullanımı : transition geçiş animasyonlarının süresini belirler mesela opacity özelliğine geçiş animasyonunu biraz 
+        yavaş ve yumuşak olucak şekilde yapabiliriz. kullanımı şu şekildedir.
+
+            transition: opacity 0.15s; önce transition deriz sonra hangi öğenin geçiş animasyonunu değiştiriceğini söyleriz ve daha son-
+            rada geçiş animasyonunun süresini ayarlarız. eğer istersek öğeler arasına virgül koymak şartı ile birden fazla öğeninkini 
+            değiştirebiliriz.
+
+                transition: background-color 0.15s, color 0.15s;
+
+                *transition kullanırken dikkat edilmesi gereken önemli hususlardan biride transition nereye koyduğundur. Mesela bir
+                buton için transition özelliğini active stilinin oraya koyarsan sadece active stilinin animasyonunda gecikme 
+                olacaktır mausu çektiğimizde anında normale dönecektir. Bunu önlemek için transition özelliğini ana stilde kullanmak 
+                daha iyi olacaktır.
+
+
+
+       *box-shadow: css stillerinde bir HTML öğesinin arka planını gölgendirmek için kullanılır. elemanları şu şekildedir ;
+
+                         (yatay gölgenin boyutu)                            (bulanıklık)                 
+            box-shadox:   h-shadow                  v-shadow                 blur(isteğe bağlı)       color(isteğe bağlı);     
+                                                 (dikey gölgenin boyutu)            
+        
+         *iyi bir gölge oluşturmanın püf noktalarında biri gölge renginin, gölge oluşturduğun html öğesinin renginin daha koyu 
+         bir tonu olucak şekilde seçmektir. 
+         
+         *renk seçmek için farklı bir yapı öğrenelim. rgba. klasik rgb gibi sadece tek fark sonundaki a. o da opacity değeridir.
+                rgba(value,  value,   value,   value)
+                    (0-255)  (0-255)  (0-255)  (0-1)
+         
+
+
 */
+
+
 
