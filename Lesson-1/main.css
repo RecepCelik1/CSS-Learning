@@ -15,8 +15,8 @@ body{
     border: none;
     height: 36.8px;
     width: 112.91px;
-    padding: 10px 16px;
-    transition: opacity 015s;
+    padding: 10px 16px;   /* Butonun sınırları ile butonun içeriği arasındaki boşluğu ayarlar. Birde margin vardır buna benzer.*/
+    transition: opacity 015s; /*animasyon süresini belirler */
     font-size: 14px;
     border-radius: 2px;
     cursor: pointer;    
@@ -74,5 +74,21 @@ body{
 
 
 **Yukarıda yaptığımız olay html dökümanımızdaki bütün butonların görüntüsünü aynı şekilde değiştirecektir. Fakat bu yazdıklarımızın yalnızca bir buton için geçerli olmasını istersek peki ? o zaman <button class="name"> şeklinde class ile butonlara isim atarız daha sonra CSS sayfasında .name yapıp butona atadığımız ismi kullanırarak bütün bu özellikleri sadece bir butona atarız.
+
+
+**border-radius kullanımı**
+
+        *border-radiusa tek bir değer atadığımızda bu değeri bileşenin bütün köşelerine atayacaktır.
+
+        *border-radiusa iki değer atadığımızda ilk değer sol-üst ve sağ-alt köşelere, ikinci değeri diğer çapraz köşelere uygular. 
+            çapraz mantık.
+        
+       *border-radiusa üç tane değer atadığımızda ilk değer sol-üst, ikinci değer sağ-üst ve sol-alt, son değer ise sağ alt köşeye 
+       uygulanır.
+
+        *border-radiusa 4 tane değer atadığımızda ise sol-üst köşeden başlayarak ters C şeklinde sıra sıra bütün köşelere değerleri 
+        atayacaktır.
+
+
 
 */
