@@ -127,7 +127,12 @@ body{
                     (0-255)  (0-255)  (0-255)  (0-1)
          
 
+        *border kullanımı
+                   (kalınlık)                     (rengi)
+            *border: 15px           solid           red
+                                   (şekli)
 
+            *istersek border-left vs diyerek sadece belirli bir köşeyede uygulayabiliriz.
 */
 
 

@@ -1,0 +1,144 @@
+/*
+
+    **border kullanımı
+                   (kalınlık)                     (rengi)
+        *border: 15px           solid           red
+                                   (şekli)
+
+        *istersek border-left vs diyerek sadece belirli bir köşeyede uygulayabiliriz.  
+
+--
+
+    **padding kullanımı 
+
+    padding ile öğelerimizin etrafında border ile arasındaki mesafeyi ayaralayabiliyoruz.
+
+        -padding: top right bottom left; şeklinde 4 kenar için ayrı ayrı ayarlayabiliriz.
+
+        -padding: top-bottom right-left; olucak şekilde ikili olarak ayarlayabiliriz.
+
+        -padding:top-bottom-right-left; olucak şekilde her koşeye ayır bir değer atayabiliriz.
+
+        veya karmaşık geldiyse
+
+        -padding-right: ; diyip geçebiliriz.
+--
+
+    **transition
+
+    CSS3 ile birlikte gelmiş olup html5 ögelerimize geçiş efekti kazandırmaya yarar.alt özellikler ;
+
+        *property ==> geçiş özelliklerinin hangi CSS özelliğine uygulanması gerektiğini bildirir.
+                        
+                        trasition-property:margin, color, background-color, ... 
+                        
+                        Tüm özelliklerde kullanmak istiyorsak, property:all; diyebiliriz.
+        -
+        
+        *duration ==> geçiş süresi. transition-duration: 2ms; gibi.
+
+        *timing-function ==>
+        
+        *delay ==> geçişin başlamasını geciktirir.
+
+            transition-delay: .5s; animasyonun başlamasını 5 saniye geciktirecektir.
+        -
+        
+        *kısa kullanım;
+
+            transition: [property duration] [timing-function] [delay];
+    
+--
+
+    **border-radius kullanımı**
+
+            *border-radiusa tek bir değer atadığımızda bu değeri bileşenin bütün köşelerine atayacaktır.
+
+            *border-radiusa iki değer atadığımızda ilk değer sol-üst ve sağ-alt köşelere, ikinci değeri diğer çapraz köşelere uygular. 
+                çapraz mantık.
+            
+            *border-radiusa üç tane değer atadığımızda ilk değer sol-üst, ikinci değer sağ-üst ve sol-alt, son değer ise sağ alt köşeye 
+            uygulanır.
+
+            *border-radiusa 4 tane değer atadığımızda ise sol-üst köşeden başlayarak ters C şeklinde sıra sıra bütün köşelere değerleri 
+            atayacaktır.
+
+--
+
+    **cursor
+        
+        *maus işaretçisinin stilini belirler.
+
+        alabileceği değerler;
+
+        auto, default, none, pointer, text, vertical-text, crosshair, cell, help, alias, copy, progress, wait, zoom-in, zoom-out, grab, grabbing, move, no-drop, not-allowed, all-scroll, row-resize, col-resize, nwse-resize, nw-resize, se-resize, nesw-resize, ne-resize, sw-resize, ns-resize, n-resize, s-resize, ew-resize, e-resize, w-resize, url, initial, inherit.
+
+--
+
+    **font özellikleri
+
+        *yazının stilini belirlememizi sağlayan özelliklerdir.
+
+            *font-style: [style]; ==> yazının italik mi normal mi görüneceğini belirtmek için kullanılır. üç değer alabilir;
+                    -normal  -italic  -oblique
+            -
+            
+            *font-weight: [wight]; ==> yazı tipinin kalınlığıni belirlemek için kullanılır. alabileceği değerler ;
+                    normal, bold, bolder, light, lighter ...
+            -
+
+            *font-variant:small-caps; ==> büyük küçük harfe duyarlı metinlerde bütün küçük harflerin büyük harfe dönüştürülmesinde
+                kullanılır.
+            -
+
+            font-size: 22px; ==> yazı boyutunu belirtmede kullanılır.
+--
+
+    **opacity:[0-1];    bir öğenin saydamlığını ayarlamamızı sağlar.
+
+        -- 0; tamamen saydam         -- 1; saydam değil       --initial; default değerlere döner       --inherit; değerini üst ögeden miras alır.
+--
+
+    **box-shadow: ; bir öğeye gölge verebilmemizi sağlar.
+
+        box-shadow: [h-shadow] [v-shadow] [blur] [spread] [color];
+
+        -- h-shadow = gölgenin yatay eksendeki konumudur. pozitif değer sağa, negatif değer gölgeyi sola yatırır.(zorunludur)
+        -- v-shadow = gölgenin dikey eksendeki konumudur. pozitif değer aşağı, negatif değer yukarı gölge oluşturur.(zorunlu)
+        -- blur = bulanıklık yarıçapıdır.
+        -- spread = yayılmayı belirtir. spread kullanılacaksa öncesinde blur değeri girilmesi zorunludur fakat blursuz
+                    kullanmak istersekte 10px 10px 0 10px şeklinde girebiliriz.
+        -- inset = gölgendirmeyi öğenin içinde yapmak istersek inset girmeliyiz.
+        -- color = renk
+        -- none = gölge yok.
+
+        *iç gölgelendirme 
+
+            box-shadow: inset 5px 5px 10px 2px red;
+
+        outline ya da border görünümünde gölgelendirme = bunun için blur değerine 0 atarız ve spread özelliğine değer atarız ve sanki 
+        dış hat veya border mış gibi görünen bir gölge oluşur.
+
+            box-shadow: 2px 2px 0 2px red;
+
+        multiple box-shadow ==> bunun için bir gölgelendirmenin değerlerini girdikten sonra virgülle ayırır yenisini girmeye başlarız.
+
+                box-shadow: 5px 5px 0 5px red, inset 5px 5px 0 5px green;
+--
+
+    **rgba => klasik renk belirleme öğesi tek farkı sondaki a opacitiy değeri atamak için kullanılır renge.
+
+            rgba(value,  value,   value,   value)
+                (0-255)  (0-255)  (0-255)  (0-1)
+
+--
+
+    **pseudo class
+
+        https://www.tercihyazilim.com/Page/css-pseudo-class
+--
+
+    **pseudo element seçiciler
+
+        https://www.tercihyazilim.com/Page/css-pseudo-elements-secicler
+*/
