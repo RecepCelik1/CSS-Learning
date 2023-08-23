@@ -25,8 +25,8 @@ body{
 .Join{
     background-color: white;
     color: #065fd4;
-    border: 1px solid #065fd4; /*burası ile borderın kalınlığını veya olup olmayacağını ayarlarız solid ile de borderimıza bir renk 
-                                            atayabiliriz*/
+    border: 1px solid #065fd4; /*burası ile borderın kalınlığını veya olup olmayacağını ayarlarız solid ile de borderimıza bir 
+                                    renk atayabiliriz*/
     height: 36.4px;                                                     
     width: 63.5px;                         
     border-radius: 2px;
@@ -51,7 +51,8 @@ body{
 
 
 /*
-  CSS'in açılımı Cascading Style Sheets tir. Adındanda anlaşılacağı üzere HTML ile yazdığımız web sayfalarındaki elementlerin görüntüsünü değiştirir.  
+  CSS'in açılımı Cascading Style Sheets tir. Adındanda anlaşılacağı üzere HTML ile yazdığımız web sayfalarındaki elementlerin 
+  görüntüsünü değiştirir.  
 
 
 **hadi bi örnek üzerinden syntaxına bi bakış atalım.
@@ -63,17 +64,22 @@ body{
         }
 
      
-      *html dosyasında görüntüsünü değiştirmek istediğimiz elementin adını yazarız sonra açık-kapalı süslü parantezlerin arasında o elementin nasıl görüneceği ile ilgili komutları gireriz. 
+      *html dosyasında görüntüsünü değiştirmek istediğimiz elementin adını yazarız sonra açık-kapalı süslü parantezlerin arasında o 
+      elementin nasıl görüneceği ile ilgili komutları gireriz. 
 
         *Seçtiğimiz elementin hangi bölümünün görüntüsünün değişeceğini ise süslü parantezler arasına yazdığımız komutlarla belirleriz.
 
             background-color: #333;
 
-                yukarıda görüldüğü gibi. background-color diyerek arka planın rengini değiştireceğimi belirtim daha sonra iki noktadan sonra bir value atadım en sonda tırnak işareti ile komutu bitirdik. CSS arkaplanımı atadığım değere karşılık gelen renk ile değiştirecektir.
+                yukarıda görüldüğü gibi. background-color diyerek arka planın rengini değiştireceğimi belirtim daha sonra iki noktadan 
+                sonra bir value atadım en sonda tırnak işareti ile komutu bitirdik. CSS arkaplanımı atadığım değere karşılık gelen renk 
+                ile değiştirecektir.
 
 
 
-**Yukarıda yaptığımız olay html dökümanımızdaki bütün butonların görüntüsünü aynı şekilde değiştirecektir. Fakat bu yazdıklarımızın yalnızca bir buton için geçerli olmasını istersek peki ? o zaman <button class="name"> şeklinde class ile butonlara isim atarız daha sonra CSS sayfasında .name yapıp butona atadığımız ismi kullanırarak bütün bu özellikleri sadece bir butona atarız.
+**Yukarıda yaptığımız olay html dökümanımızdaki bütün butonların görüntüsünü aynı şekilde değiştirecektir. Fakat bu yazdıklarımızın 
+yalnızca bir buton için geçerli olmasını istersek peki ? o zaman <button class="name"> şeklinde class ile butonlara isim atarız daha 
+sonra CSS sayfasında .name yapıp butona atadığımız ismi kullanırarak bütün bu özellikleri sadece bir butona atarız.
 
 
 **border-radius kullanımı**
