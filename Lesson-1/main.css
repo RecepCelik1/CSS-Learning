@@ -67,7 +67,7 @@ body{
       *html dosyasında görüntüsünü değiştirmek istediğimiz elementin adını yazarız sonra açık-kapalı süslü parantezlerin arasında o 
       elementin nasıl görüneceği ile ilgili komutları gireriz. 
 
-        *Seçtiğimiz elementin hangi bölümünün görüntüsünün değişeceğini ise süslü parantezler arasına yazdığımız komutlarla belirleriz.
+        *Seçtiğimiz elementin görüntüsünün nasıl değişeceğini ise süslü parantezler arasına yazdığımız komutlarla belirleriz.
 
             background-color: #333;
 
