@@ -5,13 +5,14 @@
         *border: 15px           solid           red
                                    (şekli)
 
-        *istersek border-left vs diyerek sadece belirli bir köşeyede uygulayabiliriz.  
+        *istersek border-left vs diyerek sadece belirli bir köşeyede uygulayabiliriz. Eğer border kullanmak istemiyorsak 
+        border: none; deriz.
 
 --
 
     **padding kullanımı 
 
-    padding ile öğelerimizin etrafında border ile arasındaki mesafeyi ayaralayabiliyoruz.
+    padding ile öğelerimizin etrafındaki border ile arasındaki mesafeyi ayaralayabiliyoruz.
 
         -padding: top right bottom left; şeklinde 4 kenar için ayrı ayrı ayarlayabiliriz.
 
