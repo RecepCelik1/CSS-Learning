@@ -1,0 +1,16 @@
+.spartan{
+     font-family: "Press Start 2P";
+    color: white;
+    font-size: 60px;
+}
+body{
+    background-color: black;
+}
+p{ 
+    color:#00FF73;
+    font-family: "consolas", sans-serif;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: cyan dotted underline;
+}
