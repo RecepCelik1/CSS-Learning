@@ -1,0 +1,11 @@
+/* 
+
+**cursor
+        
+*maus işaretçisinin stilini belirler.
+
+alabileceği değerler;
+
+auto, default, none, pointer, text, vertical-text, crosshair, cell, help, alias, copy, progress, wait, zoom-in, zoom-out, grab, grabbing, move, no-drop, not-allowed, all-scroll, row-resize, col-resize, nwse-resize, nw-resize, se-resize, nesw-resize, ne-resize, sw-resize, ns-resize, n-resize, s-resize, ew-resize, e-resize, w-resize, url, initial, inherit
+
+*/

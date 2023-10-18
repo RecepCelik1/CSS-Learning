@@ -1,0 +1,35 @@
+/*
+
+    ** border kullanımı
+                   (kalınlık)                     (rengi)
+        *border: 15px           solid           red
+                                   (şekli)
+
+        *istersek border-left vs diyerek sadece belirli bir köşeyede uygulayabiliriz. Eğer border kullanmak istemiyorsak 
+        border: none; deriz.
+    
+
+    ** border-style: solid, unset, ridge, outset, none, inset
+    initial, inherit, hidden, groove, double, dotted, dashed
+    -
+    * border-width: 5px;
+    -
+    *border-color: red;
+    -
+    *padding: 5px;
+
+
+    ** border-radius kullanımı**
+
+            *border-radiusa tek bir değer atadığımızda bu değeri bileşenin bütün köşelerine atayacaktır.
+
+            *border-radiusa iki değer atadığımızda ilk değer sol-üst ve sağ-alt köşelere, ikinci değeri diğer çapraz köşelere uygular. 
+                çapraz mantık.
+            
+            *border-radiusa üç tane değer atadığımızda ilk değer sol-üst, ikinci değer sağ-üst ve sol-alt, son değer ise sağ alt köşeye 
+            uygulanır.
+
+            *border-radiusa 4 tane değer atadığımızda ise sol-üst köşeden başlayarak ters C şeklinde sıra sıra bütün köşelere değerleri 
+            atayacaktır.
+
+*/

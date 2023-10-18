@@ -1,0 +1,17 @@
+/* 
+
+**padding kullanımı 
+
+padding ile öğelerimizin etrafındaki border ile arasındaki mesafeyi ayaralayabiliyoruz.
+
+    -padding: top right bottom left; şeklinde 4 kenar için ayrı ayrı ayarlayabiliriz.
+
+    -padding: top-bottom right-left; olucak şekilde ikili olarak ayarlayabiliriz.
+
+    -padding:top-bottom-right-left; olucak şekilde her koşeye ayır bir değer atayabiliriz.
+
+    veya karmaşık geldiyse
+
+    -padding-right: ; diyip geçebiliriz.
+
+*/

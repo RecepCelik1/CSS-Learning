@@ -1,0 +1,25 @@
+/* **font özellikleri
+
+*yazının stilini belirlememizi sağlayan özelliklerdir.
+
+    *font-style: [style]; ==> yazının italik mi normal mi görüneceğini belirtmek için kullanılır. üç değer alabilir;
+            -normal  -italic  -oblique
+    -
+    
+    *font-weight: [wight]; ==> yazı tipinin kalınlığıni belirlemek için kullanılır. alabileceği değerler ;
+            normal, bold, bolder, light, lighter ...
+    -
+
+    *font-variant:small-caps; ==> büyük küçük harfe duyarlı metinlerde bütün küçük harflerin büyük harfe dönüştürülmesinde
+        kullanılır.
+    -
+
+    font-size: 22px; ==> yazı boyutunu belirtmede kullanılır.
+    -
+    *font-family: font-kind;  ==> font türleri için google fonts yazıp ordan bakabiliriz. Bu arada araya virgül koymak şartı ile
+    birden fazla font türü yazabiliriz font family kısmına eğer ilk font türü çalışmazsa derleyici ikinciyi deneyecektir oda
+    çalışmazsa derleyici ikinciyi, oda çalışmazsa üçüncüyü deneyecektir.
+    -
+    *text-decoration: ; 
+
+    */

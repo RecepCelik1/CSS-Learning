@@ -1,0 +1,6 @@
+/* **rgba => klasik renk belirleme öğesi tek farkı sondaki a opacitiy değeri atamak için kullanılır renge.
+
+rgba(value,  value,   value,   value)
+    (0-255)  (0-255)  (0-255)  (0-1)
+
+*/

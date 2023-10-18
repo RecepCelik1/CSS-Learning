@@ -1,0 +1,27 @@
+/* 
+
+**transition
+
+CSS3 ile birlikte gelmiş olup html5 ögelerimize geçiş efekti kazandırmaya yarar.alt özellikler ;
+
+    *property ==> geçiş özelliklerinin hangi CSS özelliğine uygulanması gerektiğini bildirir.
+                    
+                    trasition-property:margin, color, background-color, ... 
+                    
+                    Tüm özelliklerde kullanmak istiyorsak, property:all; diyebiliriz.
+    -
+    
+    *duration ==> geçiş süresi. transition-duration: 2ms; gibi.
+
+    *timing-function ==>
+    
+    *delay ==> geçişin başlamasını geciktirir.
+
+        transition-delay: .5s; animasyonun başlamasını 5 saniye geciktirecektir.
+    -
+    
+    *kısa kullanım;
+
+        transition: [property duration] [timing-function] [delay];
+
+/*

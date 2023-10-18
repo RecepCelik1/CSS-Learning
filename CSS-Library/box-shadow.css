@@ -1,0 +1,29 @@
+/* 
+
+**box-shadow: ; bir öğeye gölge verebilmemizi sağlar.
+
+box-shadow: [h-shadow] [v-shadow] [blur] [spread] [color];
+
+-- h-shadow = gölgenin yatay eksendeki konumudur. pozitif değer sağa, negatif değer gölgeyi sola yatırır.(zorunludur)
+-- v-shadow = gölgenin dikey eksendeki konumudur. pozitif değer aşağı, negatif değer yukarı gölge oluşturur.(zorunlu)
+-- blur = bulanıklık yarıçapıdır.
+-- spread = yayılmayı belirtir. spread kullanılacaksa öncesinde blur değeri girilmesi zorunludur fakat blursuz
+            kullanmak istersekte 10px 10px 0 10px şeklinde girebiliriz.
+-- inset = gölgendirmeyi öğenin içinde yapmak istersek inset girmeliyiz.
+-- color = renk
+-- none = gölge yok.
+
+*iç gölgelendirme 
+
+    box-shadow: inset 5px 5px 10px 2px red;
+
+outline ya da border görünümünde gölgelendirme = bunun için blur değerine 0 atarız ve spread özelliğine değer atarız ve sanki 
+dış hat veya border mış gibi görünen bir gölge oluşur.
+
+    box-shadow: 2px 2px 0 2px red;
+
+multiple box-shadow ==> bunun için bir gölgelendirmenin değerlerini girdikten sonra virgülle ayırır yenisini girmeye başlarız.
+
+        box-shadow: 5px 5px 0 5px red, inset 5px 5px 0 5px green;
+
+*/
